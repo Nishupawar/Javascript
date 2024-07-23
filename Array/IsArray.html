@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=["abc","xyz","lmn"];
+        document.write(a +"<br>"); //abc,xyz,lmn
+
+        var c=Array.isArray(a);
+        document.write(c +"<br>");  //true
+
+        var b= Array.isArray(1,2,3);
+        document.write(b +"<br>");   //false
+
+        var d=["Nishu","Praju"];
+        // var d="nishu";
+
+        document.write(a +"<br>");
+        if(Array.isArray(d))
+        {
+            document.write("Is Array");
+        }
+        else{
+            document.write("Is not Array");
+        }
+    </script>
+</body>
+</html>

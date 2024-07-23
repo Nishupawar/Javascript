@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a =["xyz","lmn","abc","pqr","mno","ddd"];
+         //     0      1     2    3     4      5
+         document.write(a +"<br>");  //--xyz,lmn,abc,pqr,mno,ddd 
+        var b= a.slice(1,4);
+         document.write(b +"<br>");  //lmn,abc,pqr 
+        var c=a.slice(1);
+        document.write(c +"<br>");    //lmn,abc,pqr,mno,ddd 
+        var d=a.slice(2,5);
+         document.write(d +"<br>");     //abc,pqr,mno 
+
+
+        var aa=["aaa","bbb","cccc","ddd","eee","ffff"];
+            //     -6    -5    -4     -3    -2    -1       
+        document.write(aa +"<br>");
+        var bbb=aa.slice(-1);  // ffff-->
+        document.write(bbb +"<br>"); // eee,ffff-->
+        var bb=aa.slice(-2); 
+        document.write(bb +"<br>"); //eee,ffff-->
+        var cc=aa.slice(-4,-1);
+         document.write(cc +"<br>");   //cccc,ddd,eee -->
+    </script>
+</body>
+</html>

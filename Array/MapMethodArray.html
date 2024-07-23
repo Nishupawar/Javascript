@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var a=[1,2,3,4];
+
+        var b= a.map(function(x)
+        {
+           return x *10;
+        });
+
+        document.write(b+"<br>");
+
+        var c =[11,22,33,44,55];
+        var d = c.map(cube);
+          document.write(d+"<br>");
+        function cube(x)
+        {
+          return x * 10*10*10;
+        };
+
+
+        var aa=[15,16,17];
+       
+        var bb= aa.map(function(sq)
+        {
+            return sq *100;
+        });
+        document.write(bb+"<br>");
+
+        var ary = [
+        {fname : "Nishu" , lname : "Pawar"},
+        {fname : "Gayu" , lname : "Pawar"},
+        {fname : "Vikram" , lname : "Mahale"}
+        ];
+      
+         var array = ary.map(function(x)
+         {
+           return x.fname+" "+x.lname;
+         });
+         document.write(array+"<br>");
+    </script>
+    
+</body>
+</html>

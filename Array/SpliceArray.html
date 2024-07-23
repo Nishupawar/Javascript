@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var a=["abc","xyz","lmn"];
+        document.write(a +"<br>"); //abc,xyz,lmn
+        
+        a.splice(1,0,"Nishu","Gayu");
+        document.write(a +"<br>"); //abc,Nishu,Gayu,xyz,lmn
+      
+        var b=a.splice(1,2,"Nishu","Gayu");
+        document.write(b +"<br>"); //  Nishu,Gayu
+    </script>
+</body>
+</html>
