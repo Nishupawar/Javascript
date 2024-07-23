@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=100;
+        var b=isFinite(a);
+        document.write(b+"<br>");             //true
+
+        var a=100.27;
+        var b=Number.isFinite(a);            
+        document.write(b+"<br>");            //true
+
+        var c="nishu";
+        var d=isFinite(c);
+        document.write(d+"<br>");           //false
+
+        var aa=Infinity;
+        var bb=Number.isFinite(aa);            
+        document.write(bb+"<br>");              //false
+    </script>
+    
+</body>
+</html>

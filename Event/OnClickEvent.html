@@ -1,0 +1,46 @@
+               <!-- Mouse Event
+
+click        	onclick         	When mouse click on an element
+mouseover	   onmouseover	      When the cursor of the mouse comes over the element
+mouseout	   onmouseout	       When the cursor of the mouse leaves an element
+mousedown	   onmousedown	      When the mouse button is pressed over the element
+mouseup	       onmouseup	     When the mouse button is released over the element
+mousemove   	onmousemove	      When the mouse movement takes place. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script>
+        function clickevent()
+        {
+            document.write("Nishu");
+        }
+        function btn()
+        {
+            document.write("Hello there!");
+        }
+
+        function clicks()
+        {
+            document.write("Hey I am Nishu..");
+        }
+        function clicke()
+        {
+            document.write("Hey I am Nishu..");
+        }
+
+    </script>
+</head>
+<body>
+    <form >
+        <!-- <input type="button" value="Who is this?" onclick="clickevent()"/> -->
+        <button onclick="clickevent()">Click Me</button>
+        <button onclick="btn()">Click Here</button>
+        <input type="button" onclick="clicks()" value="Who'is this?"/>
+        <button onclick="clicke()">Who'is this?</button>
+    </form>
+</body>
+</html>
