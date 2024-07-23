@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a={
+            fname : "Nishu",
+            lname : "Pawar",
+            age   :  22,
+            email :  "nishigandhapawar2001@gmail.com",
+            sub   : ["m1","m2","m3"],                                   //array
+            living :{                                                   //sub obj
+             Country :"India",
+             village :"Ninam",
+             City : "Satara"
+            },
+            salary: function()
+            {                                                         //function
+                return 25000;
+            },
+            fullname: function()
+            {
+                return this.fname+" "+this.lname+" "+this.email;
+            }
+        }
+        document.write(a.fname+" "+a.lname+" "+a.age+" "+a.email+"<br>");
+        document.write(a.sub+ "<br>"+a.sub[2]+"<br>");
+        document.write(a.salary()+"<br>");
+        document.write(a.fullname()+"<br>");
+        document.write(a.living.City+" "+a.living.village);
+    </script>
+</body>
+</html>

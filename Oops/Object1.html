@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a={
+            fname : "Nishu",
+            lname : "Pawar",
+            age   : 22,
+            array :[12,"Nishu",true,90.78],
+            mark : function(){
+                return 78.67;
+            },
+            fullname : function(){
+                return this.fname+ " "+this.lname;
+            },
+            subObj : {
+                abc :"Abcd",
+                xyz : "xyzl"
+            }
+        }
+            document.write(a.fname+ " "+a.lname+" "+a.age+" "+a.array+"<br>");
+            document.write(a.array+"<br>");
+            document.write(a.mark()+"<br>");
+            document.write(a.fullname()+" <br>");
+            document.write(a.subObj.abc+" "+a.subObj.xyz+" "+a.subObj.array);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+I am Nishigandha Pawar from Satara.
+0 (UNSENT): The request is not initialized.
+1 (OPENED): The request has been set up.
+2 (HEADERS_RECEIVED): The request has been sent and the headers have been received.
+3 (LOADING): The request is in progress, and the response is being received.
+4 (DONE): The request is complete, and the response is ready.
